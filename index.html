@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SpendWise budget planner JavaScript foundation">
+  <title>SpendWise | Budget Planner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="SpendWise home"><span class="brand-mark">S</span><span>Spend<span class="brand-light">Wise</span></span></a>
+      <span class="header-tag">PERSONAL FINANCE</span>
+    </header>
+
+    <section class="hero">
+      <p class="eyebrow">A LITTLE MORE CLARITY, EVERY DAY</p>
+      <h1>Your money, <span>made simple.</span></h1>
+      <p class="hero-copy">Plan your budget, add an expense, and see what remains. This starter dashboard uses JavaScript prompts and writes its calculation results to your browser console.</p>
+      <button class="primary-button" id="start-budget" type="button">Start budget calculation <span aria-hidden="true">→</span></button>
+    </section>
+
+    <section class="overview" aria-label="Budget overview">
+      <article class="info-card">
+        <div class="card-icon mint" aria-hidden="true">◎</div>
+        <p class="card-label">Monthly budget</p>
+        <h2>Set your limit</h2>
+        <p class="card-copy">Enter the amount you plan to spend this month.</p>
+      </article>
+      <article class="info-card">
+        <div class="card-icon peach" aria-hidden="true">↗</div>
+        <p class="card-label">Track expenses</p>
+        <h2>Know what goes out</h2>
+        <p class="card-copy">Add an expense name and amount to calculate your spending.</p>
+      </article>
+      <article class="info-card">
+        <div class="card-icon lavender" aria-hidden="true">✓</div>
+        <p class="card-label">Remaining balance</p>
+        <h2>See what is left</h2>
+        <p class="card-copy">SpendWise calculates your remaining budget and logs clear results in the console.</p>
+      </article>
+    </section>
+
+    <section class="steps-panel">
+      <div>
+        <p class="eyebrow">HOW TO TRY IT</p>
+        <h2>Run your first budget check</h2>
+        <p>Press the button above and answer the prompts. Open your browser Developer Tools and select the Console tab to see the budget summary.</p>
+      </div>
+      <div class="steps-badge" aria-hidden="true"><span>01</span><span>02</span><span>03</span></div>
+    </section>
+
+    <footer><span>© 2026 SpendWise</span><span>Plan thoughtfully. Save confidently.</span></footer>
+  </main>
+</body>
+</html>
